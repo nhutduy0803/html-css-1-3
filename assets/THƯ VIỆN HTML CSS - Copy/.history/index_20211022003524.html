@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư Viện html/css</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <Script src="./main.js"></Script>
+    
+    <div class="header">
+        <img class="header-img" src="./assets/img/logo.jpg" alt="">
+        <ul class="header-nav">
+            <li>Css Basic</li>
+            <li>Animation</li>
+            <li>Transition</li>
+        </ul>
+        <div class="login"><span>Log in/Sign up</span></div>
+        <div class="menu" onclick="subNav()">
+            <i class="fas fa-bars" onclick="icon()"></i>
+        </div>
+        <ul class="sub-nav">
+            <li><i class="fas fa-plus"></i>video</li>
+            <li><i class="fas fa-plus"></i>text</li>
+            <li><i class="fas fa-plus"></i>button</li>
+            <li><i class="fas fa-plus"></i>footer</li>
+            <li><i class="fas fa-plus"></i>animation</li>
+            <li><i class="fas fa-plus"></i>transition</li>
+            <li><i class="fas fa-plus"></i>color</li>
+            <li><i class="fas fa-plus"></i>loading</li>
+            <li><i class="fas fa-plus"></i>css</li>
+            <li><i class="fas fa-plus"></i>content</li>
+        </ul>
+     
+    </div>
+
+    <div class="slider">
+        <div class="content-slider">
+            <h1>CSS</h1>
+            <div class="sub-css"><p>The language for styling web pages</p></div>
+            <div class="start-css">Learn CSS</div>
+            <div class="img-css"><img src="./assets/img/css.jpg" alt=""></div>
+        </div>
+    </div>
+
+    <div id="content">
+        <h2 class="css-basic">CSS Basic</h2>
+
+        <div class="image">
+            <div class="image-box">
+                <span>Image</span>
+            <div class="sub-image" onclick="showContentImage()">
+                <p>Learn css image</p>
+            </div>
+            </div>
+        </div>
+
+
+
+        <div class="content-image">
+           <div class="image-sections"> 
+            <video id="image-video" class="video-sliders" controls>
+              <source src="./assets/img/css-image-video.mp4" type="video/mp4">
+            </video>
+             <ul class="sub-video-image">
+              <li onClick="videoUrl('./assets/img/css-image-video.mp4')"><img src="./assets/img/css-image-1.jpg" alt=""></li>
+              <li onClick="videoUrl('./assets/img/css-image-video-2.mp4')"><img src="./assets/img/css-image-2.png" alt=""></li>
+              <li onClick="videoUrl('./assets/img/css-image-video-3.mp4')"><img src="./assets/img/css-image-3.png" alt=""></li>
+              <li onClick="videoUrl('./assets/img/css-image-video-4.mp4')"><img src="./assets/img/css-image-4.png" alt=""></li>
+            </ul>
+
+            <div class="exit" onclick="closeContenImage()"><i class="fas fa-sign-out-alt"></i></div>
+          </div> 
+
+          <div class="view-code">
+            <div class="info-left">
+                 <div class="revieww">
+                   <div class="side-bar-html"></div>
+                  <div class="up"><i class="fas fa-arrow-up"></i></div>
+                  <div class="down"><i class="fas fa-arrow-down"></i></div>
+              <div class="box">
+                <h2>HTML</h2>
+                <img src="./assets/img/html.png" alt="">
+              </div>
+              <div class="slide">
+               
+                <div class="box-code-1">
+                  <div class="box-info-code">
+                    <p class="html">HTML/CSS</p>
+                    <P class="example">Example 1</P>
+                    <img src="./assets/img/html-css-image-1.png" alt="">
+                    <div class="icon-down1" onclick="openCode1()"><i class="fas fa-caret-left"></i></div>
+                  </div>
+                </div>
+
+               <div class="box-code-2">
+                 <div class="box-info-code">
+                   <p class="html">HTML/CSS</p>
+                   <P class="example">Example 2</P>
+                   <img src="./assets/img/html-css-image-1.png" alt="">
+                   <div class="icon-down1" onclick="openCode2()"><i class="fas fa-caret-left"></i></div>
+                 </div>
+           
+                 
+               </div>
+               
+               <div class="box-code-3">
+                 <div class="box-info-code">
+                   <p class="html">HTML/CSS</p>
+                   <P class="example">Example 3</P>
+                   <img src="./assets/img/html-css-image-1.png" alt="">
+                   <div class="icon-down1" onclick="openCode1()"><i class="fas fa-caret-left"></i></div>
+                 </div>
+           
+                 
+               </div>
+           
+               <div class="box-code-4">
+                 <div class="box-info-code">
+                   <p class="html">HTML/CSS</p>
+                   <P class="example">Example 4</P>
+                   <img src="./assets/img/html-css-image-1.png" alt="">
+                   <div class="icon-down1" onclick="openCode2()"><i class="fas fa-caret-left"></i></div>
+                 </div>
+           
+                 
+               </div>
+             
+              </div>
+                 
+                 </div>
+            </div>
+            <div class="intro-right">
+              <div class="intension-css-image1">
+                <p>
+                  <div class="closeintension" onclick="closeCode1()"><i class="fas fa-times"></i></div>
+                  <span class="dau-sao">*</span> <span class="dau-ngoac-nhon">{</span><br>
+                   <span class="properties">margin</span>   <span class="value">: 0</span>   <span class="dau-ngoac-nhon">;</span><br>
+                   <span class="properties">padding</span>   <span class="value">: 0</span>   <span class="dau-ngoac-nhon">;</span><br>
+                   <span class="properties">box-sizing</span>   <span class="value">: border-box  <span class="dau-ngoac-nhon">;</span><br>
+                   <span class="dau-ngoac-nhon">{</span><br><br>
+        
+        
+        
+                   <span class="class-name">.css-image-1</span>  <span class="dau-ngoac-nhon">{</span><br>
+                   <span class="properties">width</span>   <span class="value">: 100%</span>   <span class="dau-ngoac-nhon">;</span><br>
+                   <span class="properties">height</span>: 100vh  <span class="dau-ngoac-nhon">;</span><br>
+                   <span class="properties">position</span>: relative  <span class="dau-ngoac-nhon">;</span><br>
+                   <span class="dau-ngoac-nhon">{</span><br><br>
+        
+        
+        
+                 <span class="class-name">.css-image-2</span>  <span class="dau-ngoac-nhon">{</span><br>
+                 <span class="properties">width</span>: 100% <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="properties">height</span>: 100%  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="properties">background</span>: url(./img/css-image-1.jpg) , no-repeat   <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="properties">background-attachment</span>: fixed  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="properties">background-position</span>: center  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="dau-ngoac-nhon">{</span><br><br>
+        
+        
+                 <span class="class-name">.image-layer2</span>  <span class="dau-ngoac-nhon">{</span><br>
+                 <span class="properties">position</span>: absolute  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="properties">top</span>: 50%  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="properties">left</span>: 50%  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="properties">width</span>: 50%  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="properties">height</span>: 300px  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="properties">background</span>: url(./img/css-image-1.jpg)  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="properties">transform</span>: translate(-50%, -50%)  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="properties">background-position</span>: center  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="properties">z-index</span>: 1  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="properties">transition</span>: 1.5s  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="dau-ngoac-nhon">{</span><br><br>
+        
+        
+        
+                 <span class="class-name">.image-layer1:hover</span> <span class="dau-ngoac-nhon">{</span> <br>
+                 <span class="properties">box-shadow</span>: 0 25px 60px #000  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="properties">transition</span>: 1.5s  <span class="dau-ngoac-nhon">;</span><br>
+                 <span class="dau-ngoac-nhon">{</span><br><br>
+        
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <script>
+            var icon = document.querySelector('.up')
+var icon2 = document.querySelector('.down')
+var slide = document.querySelector('.slide')
+let x = 0
+icon.onclick = function() {
+  if(x > "-1360") {
+     x = x - 340
+    slide.style.top = x + "px"
+  } 
+}
+
+icon2.onclick = function() {
+  if(x < 0) {
+     x = x + 340
+    slide.style.top = x + "px"
+  } 
+}
+          </script>
+
+        </div>
+
+        <div class="text">
+           <div class="text-box">
+                 <span>Text</span>
+           <div class="sub-text">
+             <p>Learn css text</p>
+          </div>
+        </div>
+    </div>
+
+
+            <div class="table">
+                <div class="table-box">
+                      <span>Table</span>
+                <div class="sub-table">
+                  <p>Learn css table</p>
+                </div>
+             </div>
+         </div>
+
+
+            <div class="form">
+                <div class="form-box">
+                      <span>Form</span>
+                <div class="sub-form">
+                  <p>Learn css form</p>
+                </div>
+             </div>
+         </div>
+
+         <div class="button">
+            <div class="button-box">
+                  <span>Button</span>
+            <div class="sub-button">
+              <p>Learn css button</p>
+            </div>
+         </div>
+     </div>
+     <div class="card">
+        <div class="card-box">
+              <span>card</span>
+        <div class="sub-card">
+          <p>Learn css Card</p>
+        </div>
+     </div>
+   </div>
+    </div>
+
+</body>
+</html>
